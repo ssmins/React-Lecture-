@@ -4,7 +4,7 @@ const Main = () => {
 
   const user = {
     name : '김민수', 
-    isLogin : true , 
+    isLogin : false , 
   }
 
   if (user.isLogin) {

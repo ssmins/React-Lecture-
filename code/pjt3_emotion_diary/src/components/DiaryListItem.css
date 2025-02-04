@@ -1,0 +1,71 @@
+.DiaryListItem {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.DiaryListItem .image-section {
+  min-width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.DiaryListItem .image-section > img {
+  /* width: 50%; */
+}
+
+.DiaryListItem .image-section_1 {
+  background-color: rgb(100, 201, 100);
+}
+
+.DiaryListItem .image-section_2 {
+  background-color: rgb(157, 215, 114);
+}
+
+.DiaryListItem .image-section_3 {
+  background-color: rgb(253, 206, 23);
+}
+
+.DiaryListItem .image-section_4 {
+  background-color: rgb(253, 132, 70);
+}
+
+.DiaryListItem .image-section_5 {
+  background-color: rgb(253, 86, 95);
+}
+
+
+.DiaryListItem .info-section {
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.DiaryListItem .info-section .created-date {
+  font-weight: bold;
+  /* font-size: 15px; */
+}
+
+.DiaryListItem .info-section .content {
+  font-size: 18px;
+}
+
+.DiaryListItem .button-section {
+  display: flex;
+  align-items: center;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+
+.DiaryListItem .button-section button {
+  min-width: 70px;
+  min-height: 50px;
+}
+

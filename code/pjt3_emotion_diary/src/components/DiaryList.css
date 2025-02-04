@@ -1,0 +1,26 @@
+.DiaryList {
+}
+
+.menu-bar {
+  padding: 20px 0px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-bar select {
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.menu-bar button {
+  flex: 1;
+}
+
+.list-wrapper {
+  padding: 20px 0px;
+  /* border-bottom: 1px solid lightgray; */
+}

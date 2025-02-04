@@ -1,0 +1,33 @@
+.Editor > section {
+  margin-bottom: 40px;
+}
+
+.Editor > section > h4 {
+  font-size: 20px;
+}
+
+.Editor > section > input, textarea {
+  background-color: lightgray;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.Editor .emotion-section .item-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+}
+
+.Editor > section > textarea {
+  padding: 20px;
+  width: 100%;
+  min-height: 200px;
+  resize: vertical; /* textarea를 가로로는 더 이상 늘리지 못하도록 , 세로로만 늘리게*/
+  box-sizing: border-box; /* 화면 바깥으로 튀어나가지 않도록*/
+}
+
+.Editor .button-section {
+  display: flex;
+  justify-content: space-between ;
+}

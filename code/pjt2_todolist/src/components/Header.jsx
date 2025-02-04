@@ -1,3 +1,4 @@
+import { memo } from "react"
 import "./Header.css"
 const Header = () => {
 
@@ -9,4 +10,8 @@ const Header = () => {
   )
 }
 
-export default Header
+const memoizedHeader = memo(Header) // props가 변경되지 않았을 때는 rerendering하지 않는다 !
+
+// export default Header
+export default memoizedHeader
+// export default memo(Header)

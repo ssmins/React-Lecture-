@@ -1,10 +1,10 @@
-.List {
+.TodoList {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.List > input {
+.TodoList > input {
   /* flex: 1; */
   width: 100%;
   border: none;
@@ -12,12 +12,12 @@
   padding: 15px 0px;
 }
 
-.List input:focus {
+.TodoList input:focus {
   outline: none;
   border-bottom: 1px solid rgb(37, 147, 255);
 }
 
-.List .todos_wrapper {
+.TodoList .todos_wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;

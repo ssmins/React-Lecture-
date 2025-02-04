@@ -1,24 +1,24 @@
-.TodoItem {
+.TodoListItem {
   display: flex;
   align-items: center;
   gap: 20px;
   padding-bottom: 20px ;
 }
 
-.TodoItem input {
+.TodoListItem input {
   width: 20px;
 }
 
-.TodoItem .content {
+.TodoListItem .content {
   flex: 1;
 }
 
-.TodoItem .date {
+.TodoListItem .date {
   font-size: 14px;
   color : gray;
 }
 
-.TodoItem button {
+.TodoListItem button {
   cursor: pointer;
   color: gray;
   font-size: 14px;
